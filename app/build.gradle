@@ -1,0 +1,42 @@
+apply plugin: "com.android.application"
+apply plugin: "kotlin-android"
+apply plugin: "kotlin-android-extensions"
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.utaite.ddlcw"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "0.0.1"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+
+    sourceSets {
+        main.java.srcDirs += "src/main/kotlin"
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Android Support
+    compile "com.android.support:appcompat-v7:$support_version"
+    compile "com.android.support:design:$support_version"
+    compile "com.android.support.constraint:constraint-layout:$constraint_version"
+
+    // Kotlin
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    // Calligraphy
+    compile "uk.co.chrisjenx:calligraphy:$calligraphy_version"
+}

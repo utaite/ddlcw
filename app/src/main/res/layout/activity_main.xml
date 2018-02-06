@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout style="@style/Character.Layout">
+
+        <TextView
+            style="@style/Character.Name"
+            android:text="@string/character_sayori" />
+
+        <LinearLayout style="@style/Character.Icon.Layout">
+
+            <LinearLayout
+                android:id="@+id/character_icon_layout_sayori_1"
+                style="@style/Character.Icon.Background">
+
+                <ImageView
+                    style="@style/Character.Icon.Image"
+                    android:src="@drawable/sayori_1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/character_icon_layout_sayori_2"
+                style="@style/Character.Icon.Background">
+
+                <ImageView
+                    style="@style/Character.Icon.Image"
+                    android:src="@drawable/sayori_2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/character_icon_layout_sayori_3"
+                style="@style/Character.Icon.Background">
+
+                <ImageView
+                    style="@style/Character.Icon.Image"
+                    android:src="@drawable/sayori_3" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/Character.Layout">
+
+        <TextView
+            style="@style/Character.Name"
+            android:text="@string/character_natsuki" />
+
+        <LinearLayout style="@style/Character.Icon.Layout">
+
+            <LinearLayout
+                android:id="@+id/character_icon_layout_natsuki_1"
+                style="@style/Character.Icon.Background">
+
+                <ImageView
+                    style="@style/Character.Icon.Image"
+                    android:src="@drawable/natsuki_1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/character_icon_layout_natsuki_2"
+                style="@style/Character.Icon.Background">
+
+                <ImageView
+                    style="@style/Character.Icon.Image"
+                    android:src="@drawable/natsuki_2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/character_icon_layout_natsuki_3"
+                style="@style/Character.Icon.Background">
+
+                <ImageView
+                    style="@style/Character.Icon.Image"
+                    android:src="@drawable/natsuki_3" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/Character.Layout">
+
+        <TextView
+            style="@style/Character.Name"
+            android:text="@string/character_yuri" />
+
+        <LinearLayout style="@style/Character.Icon.Layout">
+
+            <LinearLayout
+                android:id="@+id/character_icon_layout_yuri_1"
+                style="@style/Character.Icon.Background">
+
+                <ImageView
+                    style="@style/Character.Icon.Image"
+                    android:src="@drawable/yuri_1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/character_icon_layout_yuri_2"
+                style="@style/Character.Icon.Background">
+
+                <ImageView
+                    style="@style/Character.Icon.Image"
+                    android:src="@drawable/yuri_2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/character_icon_layout_yuri_3"
+                style="@style/Character.Icon.Background">
+
+                <ImageView
+                    style="@style/Character.Icon.Image"
+                    android:src="@drawable/yuri_3" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/Character.Layout">
+
+        <TextView
+            style="@style/Character.Name"
+            android:text="@string/character_monika" />
+
+        <LinearLayout style="@style/Character.Icon.Layout">
+
+            <LinearLayout
+                android:id="@+id/character_icon_layout_monika_1"
+                style="@style/Character.Icon.Background">
+
+                <ImageView
+                    style="@style/Character.Icon.Image"
+                    android:src="@drawable/monika_1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/character_icon_layout_monika_2"
+                style="@style/Character.Icon.Background">
+
+                <ImageView
+                    style="@style/Character.Icon.Image"
+                    android:src="@drawable/monika_2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/character_icon_layout_monika_3"
+                style="@style/Character.Icon.Background">
+
+                <ImageView
+                    style="@style/Character.Icon.Image"
+                    android:src="@drawable/monika_3" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

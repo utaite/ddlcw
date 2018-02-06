@@ -1,0 +1,31 @@
+buildscript {
+    ext {
+        support_version = "26.1.0"
+        constraint_version = "1.0.2"
+
+        kotlin_version = "1.1.51"
+
+        calligraphy_version = "2.3.0"
+    }
+
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:3.0.0"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

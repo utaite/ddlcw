@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">DDLC Widget</string>
+
+    <string name="character_sayori">Sayori</string>
+    <string name="character_natsuki">Natsuki</string>
+    <string name="character_yuri">Yuri</string>
+    <string name="character_monika">Monika</string>
+
+</resources>

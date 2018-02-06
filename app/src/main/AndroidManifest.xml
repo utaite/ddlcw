@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.utaite.ddlcw">
+
+    <application
+        android:name=".app.App"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".view.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".widget.SayoriWidget1"
+            android:label="1. Sayori">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/sayori_widget_info1" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.NatsukiWidget1"
+            android:label="1. Natsuki">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/natsuki_widget_info1" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.YuriWidget1"
+            android:label="1. Yuri">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/yuri_widget_info1" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.MonikaWidget1"
+            android:label="1. Monika">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/monika_widget_info1" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.SayoriWidget2"
+            android:label="2. Sayori">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/sayori_widget_info2" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.NatsukiWidget2"
+            android:label="2. Natsuki">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/natsuki_widget_info2" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.YuriWidget2"
+            android:label="2. Yuri">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/yuri_widget_info2" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.MonikaWidget2"
+            android:label="2. Monika">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/monika_widget_info2" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.SayoriWidget3"
+            android:label="3. Sayori">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/sayori_widget_info3" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.NatsukiWidget3"
+            android:label="3. Natsuki">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/natsuki_widget_info3" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.YuriWidget3"
+            android:label="3. Yuri">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/yuri_widget_info3" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.MonikaWidget3"
+            android:label="3. Monika">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/monika_widget_info3" />
+        </receiver>
+
+    </application>
+
+</manifest>
